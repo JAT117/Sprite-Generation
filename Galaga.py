@@ -1,11 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Oct  7 15:11:24 2019
-
-@author: JO20048019
+@author: JAT
 """
-
-
 import PIL, random, sys, argparse, math
 from PIL import Image, ImageDraw
 import noise
