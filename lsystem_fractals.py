@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Aug 13 12:28:55 2019
-
-@author: JO20048019
 """
 
 # L-System Fractals
