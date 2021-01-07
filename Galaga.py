@@ -24,8 +24,6 @@ def main():
     width = pix_height * block_size
     height = pix_height * block_size
     
-
-
     pil_image = Image.new('RGBA', (width, height))
     pixels = pil_image.load()
     colorList = []
