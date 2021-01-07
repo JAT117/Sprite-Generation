@@ -40,7 +40,6 @@ def create_invader(border, draw, size):
                 incrementer *= -1;
             element += incrementer
 
-
 def main(size, invaders, imgSize):
     origDimension = imgSize
     origImage = Image.new('RGB', (origDimension, origDimension))
@@ -62,7 +61,7 @@ def main(size, invaders, imgSize):
 
 
 #    origImage.save("Examples/Example-"+str(size)+"x"+str(size)+"-"+str(invaders)+"-"+str(imgSize)+".jpg")
-    origImage.crop((0, 0, botRightX-padding, botRightY-padding)).save("C:/Users/JO20048019/Desktop/SPrites/Cynthia.jpg")
+    origImage.crop((0, 0, botRightX-padding, botRightY-padding)).save("C:/SPrites/img.jpg")
 
 if __name__ == "__main__":
     main(int(sys.argv[1]), int(sys.argv[2]), int(sys.argv[3]))
