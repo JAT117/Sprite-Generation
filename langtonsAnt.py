@@ -1,15 +1,7 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Aug 13 11:15:51 2019
-
-@author: JO20048019
-"""
-
-# importing turtle module 
 import turtle 
   
 def langton(): 
-  
     # Initializing the Window 
     window = turtle.Screen() 
     window.bgcolor('green') 
