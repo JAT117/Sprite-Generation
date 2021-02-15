@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 import random, sys
 from PIL import Image, ImageDraw
 
@@ -34,7 +33,6 @@ def create_invader(border, draw, size):
             botRightX = topLeftX + squareSize
             botRightY = topLeftY + squareSize
 
-
             create_square((topLeftX, topLeftY, botRightX, botRightY), draw, random.choice(randColors), element, size)
             if (element == int(size/2) or element == 0):
                 incrementer *= -1;
@@ -59,8 +57,7 @@ def main(size, invaders, imgSize):
             botRightY = topLeftY + invaderSize - padding*2
             create_invader((topLeftX, topLeftY, botRightX, botRightY), draw, size)
 
-
-#    origImage.save("Examples/Example-"+str(size)+"x"+str(size)+"-"+str(invaders)+"-"+str(imgSize)+".jpg")
+#origImage.save("Examples/Example-"+str(size)+"x"+str(size)+"-"+str(invaders)+"-"+str(imgSize)+".jpg")
     origImage.crop((0, 0, botRightX-padding, botRightY-padding)).save("C:/SPrites/img.jpg")
 
 if __name__ == "__main__":
